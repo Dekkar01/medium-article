@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lora', serif;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+#all {
+  width:700px;
+  margin: 0 auto;
+}
+
+#banner {
+  height: 450px;
+  align-content: center;
+  /* margin: 50px auto */
+}
+
+#banner h1 {
+  font-size: 38px;
+  padding: 35px 0px;
+  color: #FFFFFF;
+}
+#banner > p {
+  font-size: 38px;
+  font-style: italic;
+  color: #FFFFFF;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: 300;
+  color: #A0A0A0;
+  margin: 22px 0;
+  font-size: 27px;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgb(135, 252, 176), rgb(93, 255, 150));
+  transition: 0.3s ease;
+}
+@media (max-width: 992px ) {
+  /* For a screen < 960px, this CSS will be read */
+  #all {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  #all {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  #all {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 540px, this CSS will be read */
+  #all {
+    width: 960px;
+  }
+}
